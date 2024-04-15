@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about us</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">Limelight Restaurant</a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="about.html">about</a>
+         <a href="menu.html">menu</a>
+         <a href="orders.html">orders</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">shaikh anas</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>about us</h3>
+   <p><a href="home.html">home </a> <span> / about</span></p>
+</div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/about-img.svg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>About Us</h3>
+         <p>The multi cuisine restaurant, Limelight is an innovative trendy all-day dining venue offering an array of treats that are as unique as their ambience and décor.</p>
+         <a href="menu.html" class="btn">our menu</a>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="steps">
+
+   <h1 class="title">3 simple steps</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/step-1.png" alt="">
+         <h3>Place your order</h3>
+         <p>Browse through the menu and place your order at ease from your table.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/step-2.png" alt="">
+         <h3>Quick Service</h3>
+         <p>Service is quick, and efficient but discreet, letting the guest express their own initiative by ensuring flexibility in menu options.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/step-3.png" alt="">
+         <h3>Savour!</h3>
+         <p>Relish your taste buds with your choice of cuisine.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="reviews">
+
+   <h1 class="title">Customer's Reviews</h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-1.png" alt="">
+            <p>The interior of the restaurant is well designed and spacious. The staff was very friendly and accommodating.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-2.png" alt="">
+            <p>A spacious complete family restaurant with a wide range of food options.The main course are delicious here.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-3.png" alt="">
+            <p>This restaurant is very beautiful & Spacious. Atmosphere and ambience inside here is quite pleasant to sit with your friends and family.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-4.png" alt="">
+            <p>Food is really tasty - specially Chinese! They have lots of options in main course! Also the location is great.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-5.png" alt="">
+            <p></p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/pic-6.png" alt="">
+            <p></p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>john deo</h3>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:limelight@gmail.com">limelight@gmail.com</a>
+         <a href="mailto:limelight.restro@gmail.com">limelight.restro@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>07:30am to 12:30pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="https://www.google.com/maps">Guwahati, India - 781024</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:7099063509">+91-7099063509</a>
+         <a href="tel:7099063510">+91-7099063510</a>
+      </div>
+
+   </section>
+
+   <div class="credit">21BCAF23 <span>Dweepjyoti Sarma</span> | DevOps</div>
+
+</footer>
+
+
+
+
+
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".reviews-slider", {
+   loop:true,
+   grabCursor:true,
+            spaceBetween: 20,
+   pagination: {
+      el: ".swiper-pagination",
+   },
+   breakpoints: {
+      550: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+   },
+});
+
+</script>
+
+</body>
+</html>
